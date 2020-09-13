@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 9&10Science </title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    
+</head>
+<body>
+  <div class="header">
+    <h3> Class 9 or 10 (Science) </h3>
+  </div>
+  <br/><br/>
+  
+<form>
+  <table align="center" cellspacing="0" cellpadding="3px" width="80%">    
+    <tr>
+      <th> Subject </th>
+      <th> Marks </th>
+      <th> Grade </th>
+    </tr>
+    <tr>
+      <td> Bangla (Out of 200) </td>
+      <td align="right"> <input type="number" id="ban" oninput="grade('Ban', this.value/2)"/> </td>
+      <td id="Ban" class="grade">  </td>
+    </tr>
+    <tr>
+      <td> English (Out of 200) </td>
+      <td align="right"> <input type="number" id="eng" oninput="grade('Eng', this.value/2)"/> </td>    
+      <td id="Eng" class="grade">  </td>
+    </tr>
+    <tr>
+      <td> Mathematics </td>
+      <td align="right"> <input type="number" id="mat" oninput="grade('Mat', this.value)"/> </td>    
+      <td id="Mat" class="grade">  </td>
+    </tr>
+    <tr>
+      <td> Religion </td>
+      <td align="right"> <input type="number" id="rel" oninput="grade('Rel', this.value)"/> </td>    
+      <td id="Rel" class="grade">  </td>
+    </tr>
+    <tr>
+      <td> ICT (Out of 50) </td>
+      <td align="right"> <input type="number" id="ict" oninput="grade('ICT', this.value*2)"/> </td>    
+      <td id="ICT" class="grade">  </td>
+    </tr>
+    <tr>
+      <td> Physics/ Accounting/ Geography </td>
+      <td align="right"> <input type="number" id="phy" oninput="grade('Phy', this.value)"/> </td>
+      <td id="Phy" class="grade">  </td>
+    </tr>
+    <tr>
+      <td> Chemistry/ Finance/ History </td>
+      <td align="right"> <input type="number" id="che" oninput="grade('Che', this.value)"/> </td>    
+      <td id="Che" class="grade">  </td>
+    </tr>
+    <tr>
+      <td> BGS/ General Science </td>
+      <td align="right"> <input type="number" id="bgs" oninput="grade('BGS', this.value)"/> </td>
+      <td id="BGS" class="grade">  </td>
+    </tr>
+    <tr>
+      <td>
+          <select>
+              <option> Compulsory </option>
+              <option> Higher Math </option>
+              <option> Biology </option>
+              <option> Business </option>
+              <option> Pouroniti </option>
+          </select>
+      </td>
+      <td align="right"> <input type="number" id="com" oninput="grade('Com', this.value)"/> </td>    
+      <td id="Com" class="grade">  </td>
+    </tr>
+    <tr>
+      <td>
+          <select>
+              <option> Optional </option>
+              <option> Higher Math </option>
+              <option> Biology </option>
+              <option> Agriculture </option>
+          </select>
+      </td>
+      <td align="right"> <input type="number" id="opt" oninput="grade('Opt', this.value)"/> </td>
+      <td id="Opt" class="grade">  </td>
+    </tr>
+    <tr>
+      <td><b> Finally </b></td>
+      <td id="total">  </td>
+      <td id="gpa">  </td>
+    </tr>
+  </table>
+  <br/><input type="reset" value="Reset 🗑"/>
+</form>
+  <button id="generate" onclick="getResult()"> Generate ⚙️ </button>
+  
+  <h2 id="result">  </h2>
+  
+  
+  <br/><a href="index.html" style="color:#00f; text-decoration:none;"> Home Page </a><br/><br/>
+  <footer> Made by MAR Jemim </footer>
+  
+  
+  
+  
+  <script src="result.js">  </script>
+  
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

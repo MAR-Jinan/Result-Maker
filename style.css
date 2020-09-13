@@ -1,0 +1,65 @@
+ div.header {
+     width: 100%;
+     padding: 10px 0px;
+     background-color: #006;
+     color: #eec;}
+ nav.link-card {
+     margin-top: 40px;}
+ nav.link-card a {
+     text-decoration: none;
+     color: #04c;}
+ footer {
+     width: auto;
+     height: auto;
+     background-color: #006;
+     color: #eec;
+     padding: 10px;}
+ form table { 
+     max-width: 450px;}
+ form table th { 
+     background-color: #05a;
+     color: #fff;}
+ form table td { 
+     border-bottom: 1px solid #000;}
+ form table td:nth-child(2) {
+     text-align: center;}
+ form table td:last-child {
+     background-color: #8f8;
+     text-align: center;}
+ form table tr:nth-child(odd) {
+     background: #bbb;}    
+ form table tr:nth-child(even) {
+     background: #80e0ff;}    
+ form table input {
+     width: 60px;
+     text-align: center;}
+ input[type="reset"], button#generate {    
+     background-color: #c00;
+     color: #fff;
+     margin: 0 10%;
+     padding: 10px;
+     font-weight: bold;
+     border: 1px solid maroon;
+     border-radius: 10px;
+     }
+ input[type="reset"] {
+     float: right;}
+ table { 
+     text-align: center;
+     border: 1px solid black;
+     max-width: 450px;}
+ table tr:nth-child(even) {
+     background-color: #afa;}
+ table th { 
+     background-color: #0b0;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
